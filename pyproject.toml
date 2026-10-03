@@ -5,10 +5,17 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "long-context-lab"
 version = "0.1.0"
+description = "Controlled long-context evaluation harness for local language models."
+readme = "README.md"
 requires-python = ">=3.10"
+authors = [{name = "Aarnav Saboo"}]
+keywords = ["llm", "long-context", "evaluation", "retrieval", "inference"]
 
 [project.scripts]
 long-context-lab = "long_context_lab.__main__:main"
+
+[project.urls]
+Repository = "https://github.com/aarnavsaboo/long-context-lab"
 
 [tool.setuptools.packages.find]
 include = ["long_context_lab*"]
