@@ -1,0 +1,10 @@
+{
+  "target_tokens":[2048,8192,16384,32768],
+  "positions":[0.05,0.25,0.5,0.75,0.95],
+  "strategies":["full","retrieval","compression"],
+  "repeats":3,
+  "window_chars":5000,
+  "overlap_chars":500,
+  "top_k":3,
+  "evidence_budget_chars":12000
+}
